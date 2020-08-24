@@ -1,0 +1,7 @@
+{
+  "name": "cordovaPlugins",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
