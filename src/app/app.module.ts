@@ -12,6 +12,7 @@ import { AppRoutingModule } from './app-routing.module';
 // Cordova Plugins
 import { Camera, CameraOptions } from '@ionic-native/camera/ngx';
 import { BarcodeScanner } from '@ionic-native/barcode-scanner/ngx';
+import { DocumentViewer } from '@ionic-native/document-viewer/ngx';
 
 
 @NgModule({
@@ -23,7 +24,8 @@ import { BarcodeScanner } from '@ionic-native/barcode-scanner/ngx';
     SplashScreen,
     { provide: RouteReuseStrategy, useClass: IonicRouteStrategy },
     Camera,
-    BarcodeScanner
+    BarcodeScanner,
+    DocumentViewer
   ],
   bootstrap: [AppComponent]
 })
