@@ -23,6 +23,10 @@ const routes: Routes = [
     path: 'preview-any',
     loadChildren: () => import('./pages/preview-any/preview-any.module').then( m => m.PreviewAnyPageModule)
   },
+  {
+    path: 'sqllite-key-value',
+    loadChildren: () => import('./pages/sqllite-key-value/sqllite-key-value.module').then( m => m.SqlliteKeyValuePageModule)
+  },
 ];
 
 @NgModule({
